@@ -1,3 +1,6 @@
+/*!**************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/ol/ol.css ***!
+  \**************************************************************************/
 :root,
 :host {
   --ol-background-color: white;
@@ -353,12 +356,18 @@
   cursor: pointer;
 }
 
+/*!**********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/main/frontend/css/main.css ***!
+  \**********************************************************************************/
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0;
 }
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/main/frontend/css/map.css ***!
+  \*********************************************************************************/
 /* src/main/resources/static/css/map.css */
 
 .map {
